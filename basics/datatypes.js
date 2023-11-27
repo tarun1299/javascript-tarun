@@ -22,9 +22,12 @@ let status = null  // null
 
 
 // object
-console.log(typeof name);
-console.log(typeof(age))
-console.log(typeof marks);
-console.log(typeof isPassed);
+console.log(name,typeof name);
+//console.log(typeof name);
+console.log(age,typeof(age));
+console.log(marks,typeof marks)
+console.log(isPassed,typeof isPassed)
+console.log(address,typeof address)
+console.log(status,typeof status)
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
