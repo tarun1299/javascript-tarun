@@ -36,3 +36,24 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//=====================================================
+let myName  = "Vivek";
+let name = myName;
+console.log(name);
+console.log(myName);
+name = "Vishal";
+console.log(name);
+
+let obj1 = {
+    email : "abc@google.com",
+    pass : "12345"
+}
+
+let obj2 = obj1;
+console.log(obj2.email,obj2.pass);
+
+obj2.pass = "87654";
+
+console.log(obj1.email,obj1.pass);
+console.log(obj2.email,obj2.pass);
